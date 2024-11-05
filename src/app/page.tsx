@@ -1,5 +1,11 @@
-export default function Home() {
+'use client'
+
+import { FC } from 'react';
+
+const Home: FC = () => {
   return (
-    <div>Home</div>
+    <div>Welcome</div>
   );
-}
+};
+
+export default Home;
