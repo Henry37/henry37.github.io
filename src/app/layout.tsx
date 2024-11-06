@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-import './global.css';
+import '../styles/global.css';
+import '../styles/theme.css';
+import { ThemeProvider } from '../context/ThemeContext';
 
 export const metadata: Metadata = {
   title: 'Henry Sun',
@@ -14,7 +16,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

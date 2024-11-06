@@ -1,0 +1,19 @@
+.light {
+  --background-color: #FFFFFF;
+  --text-color: #000000;
+
+  --button-text-color: #000000;
+  --button-text-color-hover: #000000;
+  --button-text-color-selected: #000000;
+  --button-background-color: #EEEEEE;
+  --button-background-color-hover: #FFFFFF;
+  --button-background-color-selected: #87CEEB;
+  --button-border-color: #87CEEB;
+  --button-border-color-hover: #000000;
+  --button-border-color-selected: #87CEEB;
+}
+
+.dark {
+  --background-color: #000000;
+  --text-color: #ffffff;
+}
