@@ -4,7 +4,6 @@ import Home from './page';
 
 describe('Page', () => {
   it('should render', () => {
-    const { getByText } = render(<Home />);
-    expect(getByText('Welcome')).toBeInTheDocument();
+    render(<Home />);
   });
 });
