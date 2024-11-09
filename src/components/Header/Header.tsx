@@ -8,7 +8,7 @@ const Header: React.FC = () => {
     <HeaderContainer>
       <HeaderWrapper>
         <Logo>
-          <Image src="./images/logo.png" alt="Logo" width={40} height={40} />
+          <Image src="/images/logo.png" alt="Logo" width={40} height={40} />
         </Logo>
       </HeaderWrapper>
     </HeaderContainer>
