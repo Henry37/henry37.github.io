@@ -1,14 +1,7 @@
 import styled from 'styled-components';
 
-export const Section = styled.div`
-  height: 100vh;
-  transition: opacity 1s;
-
-  &.fade-in {
-    opacity: 1;
-  }
-
-  &.fade-out {
-    opacity: 0;
-  }
+export const Page = styled.div`
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 `;

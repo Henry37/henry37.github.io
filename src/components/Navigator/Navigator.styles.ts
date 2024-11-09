@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 export const Nav = styled.nav`
   width: fit-content;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 20px auto;
   background-color: #000000;
   overflow: hidden;
   display: flex;

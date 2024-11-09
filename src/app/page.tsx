@@ -3,13 +3,17 @@
 import { FC } from 'react';
 import Title from '../components/Title/Title';
 import Navigator from '../components/Navigator/Navigator';
+import BookShelf from '../components/BookShelf/BookShelf';
+import { Page } from './page.styles';
+import { books } from '../constants/books';
 
 const Home: FC = () => {
   return (
-    <div>
+    <Page>
       <Title>Welcome to visit Henry</Title>
       <Navigator />
-    </div>
+      <BookShelf books={books} />
+    </Page>
   );
 };
 
