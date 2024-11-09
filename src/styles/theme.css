@@ -11,6 +11,13 @@
   --button-border-color: #87CEEB;
   --button-border-color-hover: #000000;
   --button-border-color-selected: #87CEEB;
+
+  --block-background-color: #F5F5F5;
+  --block-text-color: #6C757D;
+
+  --header-background-color: #F8F9Fa;
+
+  --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
 .dark {

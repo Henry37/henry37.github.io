@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import '../styles/global.css';
 import '../styles/theme.css';
 import { ThemeProvider } from '../context/ThemeContext';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 
 export const metadata: Metadata = {
   title: 'Henry Sun',
@@ -17,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ThemeProvider>
-          {children}
+          <Header />
+            {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
