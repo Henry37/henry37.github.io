@@ -5,11 +5,13 @@ import React, { createContext, useState, useEffect, ReactNode } from 'react';
 interface ThemeContextProps {
   theme: 'light' | 'dark';
   toggleTheme: () => void;
+  setTheme: React.Dispatch<React.SetStateAction<'light' | 'dark'>>;
 }
 
 export const ThemeContext = createContext<ThemeContextProps>({
   theme: 'light',
   toggleTheme: () => {},
+  setTheme: () => {},
 });
 
 export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
@@ -27,7 +29,7 @@ export const ThemeProvider: React.FC<{ children: ReactNode }> = ({ children }) =
   };
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme, setTheme }}>
       <div className={theme} style={{visibility: `${mounted ? 'visible' : 'hidden'}`}}>
         {children}
       </div>

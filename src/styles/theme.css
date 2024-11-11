@@ -22,5 +22,15 @@
 
 .dark {
   --background-color: #000000;
-  --text-color: #ffffff;
+  --text-color: #FFFFFF;
+
+  --button-text-color: #EEEEEE;
+  --button-text-color-hover: #000000;
+  --button-text-color-selected: #000000;
+  --button-background-color: #000000;
+  --button-background-color-hover: #FFFFFF;
+  --button-background-color-selected: #87CEEB;
+  --button-border-color: #87CEEB;
+  --button-border-color-hover: #000000;
+  --button-border-color-selected: #87CEEB;
 }
