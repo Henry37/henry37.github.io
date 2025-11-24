@@ -9,7 +9,7 @@ const Home: FC = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = 'https://3mk112lv0534.vicp.fun';
+      window.location.href = 'https://henry37.cn';
     }, 1200);
   }, []);
 
