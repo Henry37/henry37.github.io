@@ -13,7 +13,7 @@
     "@eslint/eslintrc": "^3.1.0",
     "@types/styled-components": "^5.1.34",
     "antd": "^6.0.0",
-    "next": "15.0.2",
+    "next": "16.0.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.13"
