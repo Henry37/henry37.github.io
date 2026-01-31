@@ -9,13 +9,13 @@ const Home: FC = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = 'https://henry37.cn';
+      window.location.href = 'https://3mk112lv0534.vicp.fun';
     }, 1200);
   }, []);
 
   return (
     <Page style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '80vh' }}>
-      <div style={{ marginBottom: 24, display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <div style={{ marginBottom: 24, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16 }}>
         <Title>Welcome to visit Henry, redirecting </Title>
         <Spin size="large" />
       </div>
